@@ -7,12 +7,12 @@ alias cls='clear'
 alias ra='ranger'
 
 export EDITOR=vim
+export DEEPSEEK_API_KEY="sk-faba97be76064df3a25336386733c829"
+
 setopt HIST_IGNORE_DUPS
 setopt no_nomatch
 
-figlet "welcome"
-
-eval "$(cat ~/.cache/zsh/zsh_proxy_setup 2> /dev/null)"
+figlet "welcome" | lolcat
 
 
 #

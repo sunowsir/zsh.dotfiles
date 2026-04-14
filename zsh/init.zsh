@@ -1,7 +1,8 @@
-source "${ZSH_CONFIG_DIR}/fzf.config.zsh"
-source "${ZSH_CONFIG_DIR}/nvm.config.zsh"
-# source "${ZSH_CONFIG_DIR}/zinit.config.zsh"
-source "${ZSH_CONFIG_DIR}/antigen.config.zsh"
-source "${ZSH_CONFIG_DIR}/proxy.config.zsh"
-source "${ZSH_CONFIG_DIR}/golang.config.zsh"
-source "${ZSH_CONFIG_DIR}/persional.config.zsh"
+source "${HOME}/.config/zsh/zinit/zi.zsh"
+
+source /usr/share/fzf/completion.zsh
+source /usr/share/fzf/key-bindings.zsh
+
+source "${HOME}/.config/zsh/fzf.config.zsh"
+source "${HOME}/.config/zsh/zinit.config.zsh"
+source "${HOME}/.config/zsh/persional.config.zsh"
